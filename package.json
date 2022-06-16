@@ -1,0 +1,30 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha specs/**/*.spec.js -timeout 50000 --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GazizovRR/mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GazizovRR/mocha/issues"
+  },
+  "homepage": "https://github.com/GazizovRR/mocha#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "playwright": "^1.22.2"
+  }
+}
