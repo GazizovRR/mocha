@@ -7,8 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha specs/**/*.spec.js -timeout 50000 --require @babel/register"
+    "test": "mocha -timeout 50000 --require @babel/register"
   },
+  "windowSize": "1920x1080",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GazizovRR/mocha.git"
